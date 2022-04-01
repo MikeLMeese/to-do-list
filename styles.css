@@ -1,0 +1,64 @@
+/*Medieval Font*/
+@font-face {
+    font-family: 'MedievalFont';
+    src: url('./MorrisRoman-Black.ttf');
+}
+/*Applying Medieval Font and other embellishments*/
+body, pre {
+    font-family: 'MedievalFont';
+    cursor: url('./FeatherQuillTextCursor.cur'), auto;
+}
+/*Aligning and adjusting the elements*/
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+h1, h2 {
+    text-align:center
+}
+.proclamation {
+    text-align: left;
+    padding-left: 20px;
+}
+#plan {
+    text-align: center;
+}
+input {
+    margin: 0px;
+    padding: 5px;
+    width: 250px;
+}
+ul {
+    margin: 0px;
+    padding-right: 20px;
+}
+/*Applying and adjusting background and image*/
+#attention, #plan, #list {
+    background-image: url('./Pictures/medievalpaperbg2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 25%;
+}
+.chirho {
+    width: 100px;
+    height: 300px;
+}/*Styling the button*/
+.addBtn {
+    padding: 5px;
+    width: 50%;
+    background: #dfa508;
+    color: #555;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.addBtn:hover {
+    background-color: cornflowerblue;
+}
+/*Styling the list items*/
+li:hover {
+    color: deepskyblue;
+}
